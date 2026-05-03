@@ -91,6 +91,22 @@ Testing K=19 (Shapes: 4862)... break. 0.008s
 [HIT!] Found at K=19, rank=1265
 RPN: 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E
 
+Searching for Constant Complex target: πi z=0.0 + 3.141592653589793i
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.003s
+Testing K=17 (Shapes: 1430)... done. 0.005s
+Testing K=19 (Shapes: 4862)... done. 0.011s
+Testing K=21 (Shapes: 16796)... done. 0.025s
+Testing K=23 (Shapes: 58786)... break. 0.035s
+[HIT!] Found at K=23, rank=12738
+RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E 1 E E E 1 E E
+
 Searching for Constant Complex target: e-3 z=-0.2817181715409549 + 0.0i
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s

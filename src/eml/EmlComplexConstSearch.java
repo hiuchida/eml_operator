@@ -33,7 +33,9 @@ public class EmlComplexConstSearch extends CommonComplexSearch {
         initShapeCounts();
 
         // ターゲット: 0.5 (1/2)
-        Complex target = Complex.real(0.5);
+        //Complex target = Complex.real(0.5);
+        // ターゲット: πi
+        Complex target = new Complex(0.0, Math.PI);
         double threshold = 1e-10;
 
         System.out.println("Searching for Constant Complex target: " + target);
