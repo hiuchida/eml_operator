@@ -1,0 +1,261 @@
+Searching for Constant Real target: 1 v=1.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... break. 0.0s
+[HIT!] Found at K=1, rank=0
+RPN: 1
+
+Searching for Constant Real target: e v=2.718281828459045 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.001s
+Testing K=3 (Shapes: 1)... break. 0.001s
+[HIT!] Found at K=3, rank=0
+RPN: 1 1 E
+
+Searching for Constant Real target: e-1 v=1.718281828459045 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... break. 0.0s
+[HIT!] Found at K=5, rank=0
+RPN: 1 1 1 E E
+
+Searching for Constant Real target: exp(e) v=15.154262241479262 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... break. 0.001s
+[HIT!] Found at K=5, rank=1
+RPN: 1 1 E 1 E
+
+Searching for Constant Real target: 0 v=0.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... break. 0.0s
+[HIT!] Found at K=7, rank=1
+RPN: 1 1 1 E 1 E E
+
+Searching for Constant Real target: exp(e)-1 v=14.154262241479262 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.001s
+Testing K=7 (Shapes: 5)... break. 0.001s
+[HIT!] Found at K=7, rank=2
+RPN: 1 1 E 1 1 E E
+
+Searching for Constant Real target: -1 v=-1.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... break. 0.002s
+[HIT!] Found at K=17, rank=804
+RPN: 1 1 1 1 1 E E E 1 E E 1 1 E 1 E E
+
+Searching for Constant Real target: e-2 v=0.7182818284590451 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... break. 0.001s
+[HIT!] Found at K=15, rank=264
+RPN: 1 1 1 1 1 E E E 1 E E 1 1 E E
+
+Searching for Constant Real target: exp(e)-2 v=13.154262241479262 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.001s
+Testing K=9 (Shapes: 14)... done. 0.001s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.002s
+Testing K=17 (Shapes: 1430)... break. 0.003s
+[HIT!] Found at K=17, rank=899
+RPN: 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E
+
+Searching for Constant Real target: 2 v=2.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.001s
+Testing K=9 (Shapes: 14)... done. 0.001s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.002s
+Testing K=17 (Shapes: 1430)... done. 0.003s
+Testing K=19 (Shapes: 4862)... break. 0.004s
+[HIT!] Found at K=19, rank=1265
+RPN: 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E
+
+Searching for Constant Real target: e-3 v=-0.2817181715409549 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... done. 0.002s
+Testing K=19 (Shapes: 4862)... done. 0.005s
+Testing K=21 (Shapes: 16796)... done. 0.013s
+Testing K=23 (Shapes: 58786)... done. 0.034s
+Testing K=25 (Shapes: 208012)... break. 0.083s
+[HIT!] Found at K=25, rank=136126
+RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
+
+Searching for Constant Real target: -2 v=-2.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... done. 0.002s
+Testing K=19 (Shapes: 4862)... done. 0.005s
+Testing K=21 (Shapes: 16796)... done. 0.013s
+Testing K=23 (Shapes: 58786)... done. 0.034s
+Testing K=25 (Shapes: 208012)... done. 0.108s
+Testing K=27 (Shapes: 742900)... break. 0.275s
+[HIT!] Found at K=27, rank=449903
+RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E 1 E E
+
+Searching for Constant Real target: exp(e)-3 v=12.154262241479262 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.0s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... done. 0.002s
+Testing K=19 (Shapes: 4862)... done. 0.005s
+Testing K=21 (Shapes: 16796)... done. 0.013s
+Testing K=23 (Shapes: 58786)... done. 0.034s
+Testing K=25 (Shapes: 208012)... done. 0.109s
+Testing K=27 (Shapes: 742900)... break. 0.289s
+[HIT!] Found at K=27, rank=488935
+RPN: 1 1 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
+
+Searching for Constant Real target: 3 v=3.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.001s
+Testing K=3 (Shapes: 1)... done. 0.001s
+Testing K=5 (Shapes: 2)... done. 0.001s
+Testing K=7 (Shapes: 5)... done. 0.001s
+Testing K=9 (Shapes: 14)... done. 0.001s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... done. 0.004s
+Testing K=19 (Shapes: 4862)... done. 0.007s
+Testing K=21 (Shapes: 16796)... done. 0.015s
+Testing K=23 (Shapes: 58786)... done. 0.038s
+Testing K=25 (Shapes: 208012)... done. 0.112s
+Testing K=27 (Shapes: 742900)... done. 0.403s
+Testing K=29 (Shapes: 2674440)... break. 0.662s
+[HIT!] Found at K=29, rank=671014
+RPN: 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E 1 E E
+
+Searching for Constant Real target: 1/2 v=0.5 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.001s
+Testing K=5 (Shapes: 2)... done. 0.001s
+Testing K=7 (Shapes: 5)... done. 0.001s
+Testing K=9 (Shapes: 14)... done. 0.001s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.002s
+Testing K=17 (Shapes: 1430)... done. 0.002s
+Testing K=19 (Shapes: 4862)... done. 0.007s
+Testing K=21 (Shapes: 16796)... done. 0.015s
+Testing K=23 (Shapes: 58786)... done. 0.037s
+Testing K=25 (Shapes: 208012)... done. 0.109s
+Testing K=27 (Shapes: 742900)... done. 0.385s
+Testing K=29 (Shapes: 2674440)... done. 1.434s
+Testing K=31 (Shapes: 9694845)... done. 5.512s
+Testing K=33 (Shapes: 35357670)... done. 21.408s
+Testing K=35 (Shapes: 129644790)... break. 76.577s
+[HIT!] Found at K=35, rank=116090688
+RPN: 1 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E E E 1 E E 1 1 E 1 E E 1 E
+
+Searching for Constant Real target: exp(e)-4 v=11.154262241479262 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.002s
+Testing K=17 (Shapes: 1430)... done. 0.003s
+Testing K=19 (Shapes: 4862)... done. 0.006s
+Testing K=21 (Shapes: 16796)... done. 0.014s
+Testing K=23 (Shapes: 58786)... done. 0.035s
+Testing K=25 (Shapes: 208012)... done. 0.108s
+Testing K=27 (Shapes: 742900)... done. 0.384s
+Testing K=29 (Shapes: 2674440)... done. 1.537s
+Testing K=31 (Shapes: 9694845)... done. 5.741s
+Testing K=33 (Shapes: 35357670)... done. 21.709s
+Testing K=35 (Shapes: 129644790)... done. 84.102s
+Testing K=37 (Shapes: 477638700)... break. 244.29s
+[HIT!] Found at K=37, rank=320145580
+RPN: 1 1 1 1 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
+
+Searching for Constant Real target: -3.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.0s
+Testing K=13 (Shapes: 132)... done. 0.0s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... done. 0.003s
+Testing K=19 (Shapes: 4862)... done. 0.005s
+Testing K=21 (Shapes: 16796)... done. 0.013s
+Testing K=23 (Shapes: 58786)... done. 0.033s
+Testing K=25 (Shapes: 208012)... done. 0.118s
+Testing K=27 (Shapes: 742900)... done. 0.393s
+Testing K=29 (Shapes: 2674440)... done. 1.438s
+Testing K=31 (Shapes: 9694845)... done. 5.513s
+Testing K=33 (Shapes: 35357670)... done. 21.126s
+Testing K=35 (Shapes: 129644790)... done. 81.664s
+Testing K=37 (Shapes: 477638700)... done. 317.504s
+Testing K=39 (Shapes: 1767263190)... done. 1225.478s
+Testing K=41 (Shapes: 6564120420)... break. 3297.516s
+[HIT!] Found at K=41, rank=3920687304
+RPN: 1 1 1 1 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E 1 E 1 E E
+
+Searching for Constant Real target: 4.0 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
+Testing K=7 (Shapes: 5)... done. 0.0s
+Testing K=9 (Shapes: 14)... done. 0.0s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.001s
+Testing K=17 (Shapes: 1430)... done. 0.002s
+Testing K=19 (Shapes: 4862)... done. 0.006s
+Testing K=21 (Shapes: 16796)... done. 0.012s
+Testing K=23 (Shapes: 58786)... done. 0.032s
+Testing K=25 (Shapes: 208012)... done. 0.107s
+Testing K=27 (Shapes: 742900)... done. 0.377s
+Testing K=29 (Shapes: 2674440)... done. 1.402s
+Testing K=31 (Shapes: 9694845)... done. 5.306s
+Testing K=33 (Shapes: 35357670)... done. 20.393s
+Testing K=35 (Shapes: 129644790)... done. 78.985s
+Testing K=37 (Shapes: 477638700)... done. 307.297s
+Testing K=39 (Shapes: 1767263190)... done. 1193.071s
+Testing K=41 (Shapes: 6564120420)... done. 4655.45s
+Testing K=43 (Shapes: 24466267020)... break. 9130.641s
+[HIT!] Found at K=43, rank=8173890490
+RPN: 1 1 E 1 1 1 1 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E 1 E E
+
