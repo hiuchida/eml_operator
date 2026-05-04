@@ -1,0 +1,98 @@
+Searching for Constant Real target: 2 v=2.0 (allow_inf=false)
+[HIT!] Found at K=19, rank=1265
+RPN: 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E
+
+Searching for Constant Real target: 1/2 v=0.5 (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.001s
+Testing K=5 (Shapes: 2)... done. 0.001s
+Testing K=7 (Shapes: 5)... done. 0.001s
+Testing K=9 (Shapes: 14)... done. 0.001s
+Testing K=11 (Shapes: 42)... done. 0.001s
+Testing K=13 (Shapes: 132)... done. 0.001s
+Testing K=15 (Shapes: 429)... done. 0.002s
+Testing K=17 (Shapes: 1430)... done. 0.003s
+Testing K=19 (Shapes: 4862)... done. 0.007s
+Testing K=21 (Shapes: 16796)... done. 0.014s
+Testing K=23 (Shapes: 58786)... done. 0.035s
+Testing K=25 (Shapes: 208012)... done. 0.109s
+Testing K=27 (Shapes: 742900)... done. 0.383s
+Testing K=29 (Shapes: 2674440)... done. 1.424s
+Testing K=31 (Shapes: 9694845)... break. 4.41s
+[HIT!] Found at K=31, rank=7279597
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+done. 5.442s
+Testing K=33 (Shapes: 35357670)... break. 17.136s
+[HIT!] Found at K=33, rank=26587518
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 E 1 1 E E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 17.136s
+[HIT!] Found at K=33, rank=26587658
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 1 E E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 17.136s
+[HIT!] Found at K=33, rank=26587703
+RPN: 1 1 1 E 1 1 1 1 E E 1 1 E E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 17.137s
+[HIT!] Found at K=33, rank=26587938
+RPN: 1 1 1 E 1 1 E 1 1 1 E E 1 E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 18.471s
+[HIT!] Found at K=33, rank=29569729
+RPN: 1 1 1 E 1 E E 1 1 1 1 1 E E 1 E 1 E 1 E E 1 1 E 1 E E 1 E E E 1 E
+done. 21.122s
+Testing K=35 (Shapes: 129644790)... break. 66.56s
+[HIT!] Found at K=35, rank=97613263
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 E 1 1 1 E E E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.56s
+[HIT!] Found at K=35, rank=97613268
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 E 1 1 E 1 E E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.56s
+[HIT!] Found at K=35, rank=97613413
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 1 E E 1 1 E E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.56s
+[HIT!] Found at K=35, rank=97613458
+RPN: 1 1 1 E 1 1 1 1 E E 1 1 E E 1 E 1 1 E E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97613853
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 1 1 E E E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97613858
+RPN: 1 1 1 E 1 1 1 1 E E 1 E 1 1 E 1 E E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97613908
+RPN: 1 1 1 E 1 1 1 1 E E 1 1 E E 1 1 E E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97613953
+RPN: 1 1 1 E 1 1 1 1 1 E 1 1 E E E E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97614038
+RPN: 1 1 1 E 1 1 1 1 E E 1 1 1 E E E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97614593
+RPN: 1 1 1 E 1 1 E 1 1 1 E E 1 E 1 E 1 1 E E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.561s
+[HIT!] Found at K=35, rank=97614733
+RPN: 1 1 1 E 1 1 E 1 1 1 E E 1 E 1 1 E E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.562s
+[HIT!] Found at K=35, rank=97614778
+RPN: 1 1 1 E 1 1 E 1 1 1 E E 1 1 E E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 66.562s
+[HIT!] Found at K=35, rank=97615013
+RPN: 1 1 1 E 1 1 1 E E 1 1 1 E E 1 E 1 E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
+break. 71.629s
+[HIT!] Found at K=35, rank=108402030
+RPN: 1 1 1 E 1 E E 1 1 1 1 1 E E 1 E 1 E 1 1 E E E 1 1 E 1 E E 1 E E E 1 E
+break. 71.629s
+[HIT!] Found at K=35, rank=108402086
+RPN: 1 1 1 E 1 E E 1 1 1 1 1 E E 1 E 1 1 E E 1 E E 1 1 E 1 E E 1 E E E 1 E
+break. 71.629s
+[HIT!] Found at K=35, rank=108402104
+RPN: 1 1 1 E 1 E E 1 1 1 1 1 E E 1 1 E E 1 E 1 E E 1 1 E 1 E E 1 E E E 1 E
+break. 71.629s
+[HIT!] Found at K=35, rank=108402198
+RPN: 1 1 1 E 1 E E 1 1 1 E 1 1 1 E E 1 E 1 E 1 E E 1 1 E 1 E E 1 E E E 1 E
+break. 72.867s
+[HIT!] Found at K=35, rank=110906446
+RPN: 1 1 1 1 E E 1 E 1 E 1 E E 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E E 1 E  *****
+break. 75.403s
+[HIT!] Found at K=35, rank=116090688
+RPN: 1 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E E E 1 E E 1 1 E 1 E E 1 E  *****
+done. 82.082s

@@ -1,29 +1,29 @@
-Searching for Constant Complex target: 1 z=1.0 + 0.0i
+Searching for Constant Complex target: 1 z=1.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... break. 0.004s
 [HIT!] Found at K=1, rank=0
 RPN: 1
 
-Searching for Constant Complex target: e z=2.718281828459045 + 0.0i
+Searching for Constant Complex target: e z=2.718281828459045 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... break. 0.005s
 [HIT!] Found at K=3, rank=0
 RPN: 1 1 E
 
-Searching for Constant Complex target: e-1 z=1.718281828459045 + 0.0i
+Searching for Constant Complex target: e-1 z=1.718281828459045 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... break. 0.0s
 [HIT!] Found at K=5, rank=0
 RPN: 1 1 1 E E
 
-Searching for Constant Complex target: exp(e) z=15.154262241479262 + 0.0i
+Searching for Constant Complex target: exp(e) z=15.154262241479262 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... break. 0.0s
 [HIT!] Found at K=5, rank=1
 RPN: 1 1 E 1 E
 
-Searching for Constant Complex target: 0 z=0.0 + 0.0i
+Searching for Constant Complex target: 0 z=0.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.001s
@@ -31,7 +31,7 @@ Testing K=7 (Shapes: 5)... break. 0.001s
 [HIT!] Found at K=7, rank=1
 RPN: 1 1 1 E 1 E E
 
-Searching for Constant Complex target: exp(e)-1 z=14.154262241479262 + 0.0i
+Searching for Constant Complex target: exp(e)-1 z=14.154262241479262 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -39,7 +39,7 @@ Testing K=7 (Shapes: 5)... break. 0.0s
 [HIT!] Found at K=7, rank=2
 RPN: 1 1 E 1 1 E E
 
-Searching for Constant Complex target: -1 z=-1.0 + 0.0i
+Searching for Constant Complex target: -1 z=-1.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.001s
 Testing K=5 (Shapes: 2)... done. 0.001s
@@ -52,7 +52,7 @@ Testing K=17 (Shapes: 1430)... break. 0.004s
 [HIT!] Found at K=17, rank=804
 RPN: 1 1 1 1 1 E E E 1 E E 1 1 E 1 E E
 
-Searching for Constant Complex target: e-2 z=0.7182818284590451 + 0.0i
+Searching for Constant Complex target: e-2 z=0.7182818284590451 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -64,7 +64,7 @@ Testing K=15 (Shapes: 429)... break. 0.002s
 [HIT!] Found at K=15, rank=264
 RPN: 1 1 1 1 1 E E E 1 E E 1 1 E E
 
-Searching for Constant Complex target: exp(e)-2 z=13.154262241479262 + 0.0i
+Searching for Constant Complex target: exp(e)-2 z=13.154262241479262 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.001s
 Testing K=5 (Shapes: 2)... done. 0.001s
@@ -77,7 +77,7 @@ Testing K=17 (Shapes: 1430)... break. 0.005s
 [HIT!] Found at K=17, rank=899
 RPN: 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E
 
-Searching for Constant Complex target: 2 z=2.0 + 0.0i
+Searching for Constant Complex target: 2 z=2.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.002s
 Testing K=3 (Shapes: 1)... done. 0.002s
 Testing K=5 (Shapes: 2)... done. 0.002s
@@ -91,7 +91,7 @@ Testing K=19 (Shapes: 4862)... break. 0.008s
 [HIT!] Found at K=19, rank=1265
 RPN: 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E
 
-Searching for Constant Complex target: πi z=0.0 + 3.141592653589793i
+Searching for Constant Complex target: πi z=0.0 + 3.141592653589793i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -107,7 +107,7 @@ Testing K=23 (Shapes: 58786)... break. 0.035s
 [HIT!] Found at K=23, rank=12738
 RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E 1 E E E 1 E E
 
-Searching for Constant Complex target: e-3 z=-0.2817181715409549 + 0.0i
+Searching for Constant Complex target: e-3 z=-0.2817181715409549 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -124,7 +124,7 @@ Testing K=25 (Shapes: 208012)... break. 0.162s
 [HIT!] Found at K=25, rank=136126
 RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
 
-Searching for Constant Complex target: -2 z=-2.0 + 0.0i
+Searching for Constant Complex target: -2 z=-2.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -142,7 +142,7 @@ Testing K=27 (Shapes: 742900)... break. 0.512s
 [HIT!] Found at K=27, rank=449903
 RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E 1 E E
 
-Searching for Constant Complex target: exp(e)-3 z=12.154262241479262 + 0.0i
+Searching for Constant Complex target: exp(e)-3 z=12.154262241479262 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.001s
 Testing K=3 (Shapes: 1)... done. 0.001s
 Testing K=5 (Shapes: 2)... done. 0.001s
@@ -160,7 +160,7 @@ Testing K=27 (Shapes: 742900)... break. 0.519s
 [HIT!] Found at K=27, rank=488935
 RPN: 1 1 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
 
-Searching for Constant Complex target: 3 z=3.0 + 0.0i
+Searching for Constant Complex target: 3 z=3.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -179,7 +179,7 @@ Testing K=29 (Shapes: 2674440)... break. 1.133s
 [HIT!] Found at K=29, rank=671014
 RPN: 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E 1 E E
 
-Searching for Constant Complex target: 1/2 z=0.5 + 0.0i
+Searching for Constant Complex target: 1/2 z=0.5 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.001s
 Testing K=3 (Shapes: 1)... done. 0.001s
 Testing K=5 (Shapes: 2)... done. 0.001s
@@ -199,7 +199,7 @@ Testing K=31 (Shapes: 9694845)... break. 7.706s
 [HIT!] Found at K=31, rank=7202228
 RPN: 1 1 1 1 1 1 1 E 1 E 1 E E E 1 E E 1 1 E 1 E 1 E E 1 E E E 1 E
 
-Searching for Constant Complex target: exp(e)-4 z=11.154262241479262 + 0.0i
+Searching for Constant Complex target: exp(e)-4 z=11.154262241479262 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.002s
@@ -222,29 +222,30 @@ Testing K=37 (Shapes: 477638700)... break. 430.039s
 [HIT!] Found at K=37, rank=320145580
 RPN: 1 1 1 1 1 1 1 1 E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
 
-Searching for Constant Complex target: -3.0 + 0.0i
-Testing K=1 (Shapes: 1)... done. 0.001s
-Testing K=3 (Shapes: 1)... done. 0.001s
-Testing K=5 (Shapes: 2)... done. 0.001s
+Searching for Constant Complex target: -3 z=-3.0 + 0.0i (allow_inf=false)
+Testing K=1 (Shapes: 1)... done. 0.0s
+Testing K=3 (Shapes: 1)... done. 0.0s
+Testing K=5 (Shapes: 2)... done. 0.0s
 Testing K=7 (Shapes: 5)... done. 0.001s
 Testing K=9 (Shapes: 14)... done. 0.001s
 Testing K=11 (Shapes: 42)... done. 0.001s
-Testing K=13 (Shapes: 132)... done. 0.001s
-Testing K=15 (Shapes: 429)... done. 0.002s
-Testing K=17 (Shapes: 1430)... done. 0.004s
-Testing K=19 (Shapes: 4862)... done. 0.01s
-Testing K=21 (Shapes: 16796)... done. 0.022s
-Testing K=23 (Shapes: 58786)... done. 0.059s
-Testing K=25 (Shapes: 208012)... done. 0.193s
-Testing K=27 (Shapes: 742900)... done. 0.673s
-Testing K=29 (Shapes: 2674440)... done. 2.506s
-Testing K=31 (Shapes: 9694845)... done. 9.418s
-Testing K=33 (Shapes: 35357670)... done. 36.282s
-Testing K=35 (Shapes: 129644790)... break. 105.261s
-[HIT!] Found at K=35, rank=86120580
-RPN: 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E E 1 1 E 1 E 1 E E E 1 1 E E
+Testing K=13 (Shapes: 132)... done. 0.002s
+Testing K=15 (Shapes: 429)... done. 0.003s
+Testing K=17 (Shapes: 1430)... done. 0.005s
+Testing K=19 (Shapes: 4862)... done. 0.011s
+Testing K=21 (Shapes: 16796)... done. 0.025s
+Testing K=23 (Shapes: 58786)... done. 0.066s
+Testing K=25 (Shapes: 208012)... done. 0.202s
+Testing K=27 (Shapes: 742900)... done. 0.692s
+Testing K=29 (Shapes: 2674440)... done. 2.534s
+Testing K=31 (Shapes: 9694845)... done. 9.636s
+Testing K=33 (Shapes: 35357670)... done. 37.845s
+Testing K=35 (Shapes: 129644790)... done. 147.801s
+Testing K=37 (Shapes: 477638700)... break. 424.427s
+[HIT!] Found at K=37, rank=297381883
+RPN: 1 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E 1 E E
 
-Searching for Constant Complex target: 4 z=4.0 + 0.0i
+Searching for Constant Complex target: 4 z=4.0 + 0.0i (allow_inf=false)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
@@ -267,27 +268,4 @@ Testing K=37 (Shapes: 477638700)... done. 553.469s
 Testing K=39 (Shapes: 1767263190)... break. 943.432s
 [HIT!] Found at K=39, rank=434653851
 RPN: 1 1 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E 1 E E
-
-Searching for Constant Complex target: -3 z=-3.0 + 0.0i
-Testing K=1 (Shapes: 1)... done. 0.0s
-Testing K=3 (Shapes: 1)... done. 0.0s
-Testing K=5 (Shapes: 2)... done. 0.0s
-Testing K=7 (Shapes: 5)... done. 0.001s
-Testing K=9 (Shapes: 14)... done. 0.001s
-Testing K=11 (Shapes: 42)... done. 0.001s
-Testing K=13 (Shapes: 132)... done. 0.002s
-Testing K=15 (Shapes: 429)... done. 0.003s
-Testing K=17 (Shapes: 1430)... done. 0.005s
-Testing K=19 (Shapes: 4862)... done. 0.011s
-Testing K=21 (Shapes: 16796)... done. 0.025s
-Testing K=23 (Shapes: 58786)... done. 0.066s
-Testing K=25 (Shapes: 208012)... done. 0.202s
-Testing K=27 (Shapes: 742900)... done. 0.692s
-Testing K=29 (Shapes: 2674440)... done. 2.534s
-Testing K=31 (Shapes: 9694845)... done. 9.636s
-Testing K=33 (Shapes: 35357670)... done. 37.845s
-Testing K=35 (Shapes: 129644790)... done. 147.801s
-Testing K=37 (Shapes: 477638700)... break. 424.427s
-[HIT!] Found at K=37, rank=297381883
-RPN: 1 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E 1 E E
 

@@ -107,7 +107,7 @@ Testing K=25 (Shapes: 208012)... break. 0.089s
 [HIT!] Found at K=25, rank=136126
 RPN: 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E E 1 E E 1 1 E E
 
-Searching for Real Constant target: -2 v=-2.0 (allow_inf=true)
+Searching for Constant Real target: -2 v=-2.0 (allow_inf=true)
 Testing K=1 (Shapes: 1)... done. 0.0s
 Testing K=3 (Shapes: 1)... done. 0.0s
 Testing K=5 (Shapes: 2)... done. 0.0s
