@@ -1,0 +1,156 @@
+Searching for Unary Function Complex target: exp(x) at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... break. 0.001s
+[HIT!] Found at K=3, rank=0, mask=1
+RPN: x 1 E
+
+Searching for Unary Function Complex target: e-ln(x) at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... break. 0.0s
+[HIT!] Found at K=3, rank=0, mask=2
+RPN: 1 x E
+
+Searching for Unary Function Complex target: e-x at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... break. 0.001s
+[HIT!] Found at K=5, rank=0, mask=2
+RPN: 1 x 1 E E
+
+Searching for Unary Function Complex target: ln(x) at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.0s
+Testing K=7 (Shapes: 5, Masks: 16)... break. 0.0s
+[HIT!] Found at K=7, rank=1, mask=4
+RPN: 1 1 x E 1 E E
+
+Searching for Unary Function Complex target: exp(e)-x at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.0s
+Testing K=7 (Shapes: 5, Masks: 16)... break. 0.001s
+[HIT!] Found at K=7, rank=2, mask=4
+RPN: 1 1 E x 1 E E
+
+Searching for Unary Function Complex target: x at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... break. 0.001s
+[HIT!] Found at K=1, rank=0, mask=1
+RPN: x
+done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.002s
+Testing K=9 (Shapes: 14, Masks: 32)... break. 0.002s
+[HIT!] Found at K=9, rank=3, mask=4
+RPN: 1 1 x 1 E E 1 E E
+
+Searching for Unary Function Complex target: x-1 at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... break. 0.005s
+[HIT!] Found at K=11, rank=24, mask=4
+RPN: 1 1 x E 1 E E 1 1 E E
+
+Searching for Unary Function Complex target: ln(ln(x)) at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.007s
+Testing K=13 (Shapes: 132, Masks: 128)... break. 0.012s
+[HIT!] Found at K=13, rank=29, mask=16
+RPN: 1 1 1 1 x E 1 E E E 1 E E
+
+Searching for Unary Function Complex target: x-e at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.002s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.004s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.008s
+Testing K=13 (Shapes: 132, Masks: 128)... break. 0.019s
+[HIT!] Found at K=13, rank=69, mask=4
+RPN: 1 1 x E 1 E E 1 1 E 1 E E
+
+Searching for Unary Function Complex target: x-exp(e) at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.002s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.007s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.026s
+Testing K=15 (Shapes: 429, Masks: 256)... break. 0.079s
+[HIT!] Found at K=15, rank=211, mask=4
+RPN: 1 1 x E 1 E E 1 1 E 1 E 1 E E
+
+Searching for Unary Function Complex target: -x at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.007s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.028s
+Testing K=15 (Shapes: 429, Masks: 256)... break. 0.093s
+[HIT!] Found at K=15, rank=256, mask=64
+RPN: 1 1 1 1 1 E 1 E E E E x 1 E E
+
+Searching for Unary Function Complex target: 1/x at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.007s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.026s
+Testing K=15 (Shapes: 429, Masks: 256)... break. 0.123s
+[HIT!] Found at K=15, rank=388, mask=64
+RPN: 1 1 1 1 1 E 1 E E E E x E 1 E
+
+Searching for Unary Function Complex target: x^2 at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.007s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.026s
+Testing K=15 (Shapes: 429, Masks: 256)... done. 0.117s
+Testing K=17 (Shapes: 1430, Masks: 512)... break. 0.591s
+[HIT!] Found at K=17, rank=1122, mask=80
+RPN: 1 1 1 1 x E E 1 E E x E 1 E E 1 E
+
+Searching for Unary Function Complex target: 2x at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.002s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.002s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.002s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.003s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.005s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.01s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.034s
+Testing K=15 (Shapes: 429, Masks: 256)... done. 0.154s
+Testing K=17 (Shapes: 1430, Masks: 512)... done. 0.801s
+Testing K=19 (Shapes: 4862, Masks: 1024)... break. 2.049s
+[HIT!] Found at K=19, rank=1265, mask=144
+RPN: 1 1 1 1 x 1 E E E 1 E E x 1 E E 1 E E
+
+Searching for Unary Function Complex target: x+1 at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.0s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.008s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.031s
+Testing K=15 (Shapes: 429, Masks: 256)... done. 0.147s
+Testing K=17 (Shapes: 1430, Masks: 512)... done. 0.825s
+Testing K=19 (Shapes: 4862, Masks: 1024)... break. 2.077s
+[HIT!] Found at K=19, rank=1265, mask=16
+RPN: 1 1 1 1 x 1 E E E 1 E E 1 1 E E 1 E E
+

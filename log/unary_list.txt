@@ -1,0 +1,42 @@
+関数exp(x):(K=3 rank=0 mask=1)
+x1E
+関数e-ln(x):(K=3 rank=0 mask=2)
+1xE
+関数e-x:(K=5 rank=0 mask=2)
+1x1EE
+関数ln(x):(K=7 rank=1 mask=4)
+11xE1EE
+関数exp(e)−x:(K=7 rank=2 mask=4)
+11Ex1EE
+関数x:(K=9 rank=3 mask=4)
+11x1EE1EE
+関数x-1:(K=11 rank=24 mask=4)
+11xE1EE11EE
+関数ln(ln(x)):(K=13 rank=29 mask=16)
+1111xE1EEE1EE
+関数x−e:(K=13 rank=69 mask=4)
+11xE1EE11E1EE
+関数x-exp(e):(K=15 rank=211 mask=4)
+11xE1EE11E1E1EE
+関数-x:(K=15 rank=256 mask=64 allow_inf=true)
+11111E1EEEEx1EE
+関数1/x:(K=15 rank=388 mask=64 allow_inf=true)
+11111E1EEEExE1E
+関数-x:(K=17 rank=804 mask=8 Complex allow_inf=false)
+111x1EEE1EE11E1EE
+関数-x:(K=17 rank=804 mask=76 Real allow_inf=false)
+11xx1EEE1EEx1E1EE
+関数x^2:(K=17 rank=1122 mask=80)
+1111xEE1EExE1EE1E
+関数1/x:(K=17 rank=1235 mask=8 allow_inf=false)
+111xEE1EE11E1EE1E
+関数x+1:(K=19 rank=1265 mask=16 Complex)
+1111x1EEE1EE11EE1EE
+関数x+1:(K=19 rank=1265 mask=25 Real)
+x11xx1EEE1EE11EE1EE
+関数2x:(K=19 rank=1265 mask=144 Complex)
+1111x1EEE1EEx1EE1EE
+関数2x:(K=19 rank=1265 mask=153 Real)
+x11xx1EEE1EEx1EE1EE
+関数x/2:(K=29 rank=2004798 mask=1028 Real allow_inf=true)
+11xE11111E1EEEE1xE1E1EE1EEE1E
