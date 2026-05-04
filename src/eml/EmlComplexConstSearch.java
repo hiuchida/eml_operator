@@ -29,16 +29,60 @@ public class EmlComplexConstSearch extends CommonComplexSearch {
         return emlEval(leftVal, rightVal);
     }
 
+    private static String FUNC = "1";
+    //private static String FUNC = "e";
+    //private static String FUNC = "e-1";
+    //private static String FUNC = "exp(e)";
+    //private static String FUNC = "0";
+    //
+    //private static String FUNC = "exp(e)-1";
+    //private static String FUNC = "-1";
+    //private static String FUNC = "e-2";
+    //private static String FUNC = "exp(e)-2";
+    //private static String FUNC = "2";
+    //
+    //private static String FUNC = "e-3";
+    //private static String FUNC = "-2";
+    //private static String FUNC = "exp(e)-3";
+    //private static String FUNC = "3";
+    //private static String FUNC = "1/2";
+    //
+    //private static String FUNC = "exp(e)-4";
+    //private static String FUNC = "-3";
+    //private static String FUNC = "4";
+    //private static String FUNC = "πi";
+    private static Complex func() {
+        Complex target = Complex.ONE;
+        //Complex target = Complex.E;
+        //Complex target = Complex.E.sub(Const.ONE);
+        //Complex target = Complex.exp(Complex.E);
+        //Complex target = Complex.ZERO;
+        //
+        //Complex target = Complex.exp(Complex.E).sub(Const.ONE);
+        //Complex target = Complex.ZERO.sub(Const.ONE);
+        //Complex target = Complex.E.sub(Const.TWO);
+        //Complex target = Complex.exp(Complex.E).sub(Const.TWO);
+        //Complex target = Complex.TWO;
+        //
+        //Complex target = Complex.E.sub(Const.THREE);
+        //Complex target = Complex.ZERO.sub(Const.TWO);
+        //Complex target = Complex.exp(Complex.E).sub(Const.THREE);
+        //Complex target = Complex.THREE;
+        //Complex target = Complex.ONE.div(Const.TWO);
+        //
+        //Complex target = Complex.exp(Complex.E).sub(Const.FOUR);
+        //Complex target = Complex.ZERO.sub(Const.THREE);
+        //Complex target = Complex.FOUR;
+        //Complex target = new Complex(Const.ZERO, Const.PI);
+        return target;
+    }
+
     public static void main(String[] args) {
         initShapeCounts();
 
-        // ターゲット: 0.5 (1/2)
-        //Complex target = Complex.real(0.5);
-        // ターゲット: πi
-        Complex target = new Complex(0.0, Math.PI);
-        double threshold = 1e-10;
+        Complex target = func();
 
-        System.out.println("Searching for Constant Complex target: " + target);
+        System.out.println("Searching for Constant Complex target: " + FUNC + " z=" + target + Const.MSG_ALLOW_INF);
         long start = System.currentTimeMillis();
         // 命令長 K = 1, 3, 5, ... の順に探索 (Source)
         for (int K = 1; K <= 43; K += 2) {
@@ -48,7 +92,7 @@ public class EmlComplexConstSearch extends CommonComplexSearch {
 
             for (long rank = 0; rank < totalShapes; rank++) {
                 Complex result = evaluateRank(leaves, rank);
-                if (result.isFinite() && result.sub(target).abs() < threshold) {
+                if (isSame(result, target)) {
                     long end = System.currentTimeMillis();
                     System.out.println("break. " + (end-start)/1000.0 + "s");
                     System.out.println("[HIT!] Found at K=" + K + ", rank=" + rank);
