@@ -11,22 +11,17 @@ public abstract class CommonRealSearch extends CommonSearch {
             if (!Double.isFinite(left) || !Double.isFinite(right) || right <= 0.0) {
                 return Const.NaN;
             }
-            double out = Math.exp(left) - Math.log(right);
+            double expLeft = Real.exp(left);
+            double logRight = Real.log(right);
+            double out = Real.sub(expLeft, logRight);
             return Double.isFinite(out) ? out : Const.NaN;
         }
 
         // 拡張実数モード
         if (right < 0.0) return Const.NaN;
 
-        double expLeft = (left == Double.NEGATIVE_INFINITY) ? 0.0 : Math.exp(left);
-        double logRight;
-        if (right == 0.0) {
-            logRight = Double.NEGATIVE_INFINITY;
-        } else if (Double.isInfinite(right)) {
-            logRight = Double.POSITIVE_INFINITY;
-        } else {
-            logRight = Math.log(right);
-        }
+        double expLeft = Real.exp(left);
+        double logRight = Real.log(right);
 
         // inf - inf は未定義(NaN)
         if (Double.isInfinite(expLeft) && Double.isInfinite(logRight) && 
@@ -34,7 +29,7 @@ public abstract class CommonRealSearch extends CommonSearch {
             return Const.NaN;
         }
 
-        return expLeft - logRight;
+        return Real.sub(expLeft, logRight);
     }
 
     public static boolean isSame(double result, double target) {
