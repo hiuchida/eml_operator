@@ -72,13 +72,13 @@ public class EmlRealBinarySearch extends CommonRealSearch {
         System.out.println("Searching for Binary Function Real target: " + FUNC + " at x=" + x + ", y=" + y + Const.MSG_ALLOW_INF);
         long start = System.currentTimeMillis();
         // 命令長 K = 1, 3, 5, ... の順に探索 (Source)
-        for (int K = 25; K <= 29; K += 2) {
+        for (int K = 1; K <= 29; K += 2) {
             int leaves = (K + 1) / 2;
             long totalShapes = hShapeCount[leaves];
             long totalCodes = hAssignmentCount[leaves];
             System.out.print("Testing K=" + K + " (Shapes: " + totalShapes + ", Assignments: " + totalCodes + ")... ");
 
-            for (long rank = 195379; rank < totalShapes; rank++) {
+            for (long rank = 0; rank < totalShapes; rank++) {
                 for (long code = 0; code < totalCodes; code++) {
                     double result = evaluateExpr(leaves, rank, code);
                     if (isSame(result, target)) {

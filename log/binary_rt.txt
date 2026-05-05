@@ -72,3 +72,19 @@ Testing K=19 (Shapes: 4862, Assignments: 59049)... break. 34.075s
 [HIT!] Found at K=19, rank=1265, code=2349
 RPN: 1 1 1 1 y 1 E E E 1 E E x 1 E E 1 E E
 
+Searching for Binary Function Real target: x^y at x=0.5772156649015329, y=0.915965594177219 (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.001s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.001s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.001s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.002s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.004s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.021s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.132s
+Testing K=15 (Shapes: 429, Assignments: 6561)... done. 0.905s
+Testing K=17 (Shapes: 1430, Assignments: 19683)... done. 9.835s
+Testing K=19 (Shapes: 4862, Assignments: 59049)... done. 113.678s
+Testing K=21 (Shapes: 16796, Assignments: 177147)... done. 1264.324s
+Testing K=23 (Shapes: 58786, Assignments: 531441)... break. 2602.362s
+[HIT!] Found at K=23, rank=6298, code=172969
+RPN: x y 1 x E E y 1 1 x y E y y E 1 E E E E E E E
+

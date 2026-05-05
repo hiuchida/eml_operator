@@ -73,7 +73,7 @@ public class EmlComplexBinarySearch extends CommonComplexSearch {
         System.out.println("Searching for Binary Function Complex target: " + FUNC + " at x=" + x + ", y=" + y + Const.MSG_ALLOW_INF);
         long start = System.currentTimeMillis();
         // 命令長 K = 1, 3, 5, ... の順に探索 (Source)
-        for (int K = 1; K <= 23; K += 2) {
+        for (int K = 1; K <= 29; K += 2) {
             int leaves = (K + 1) / 2;
             long totalShapes = hShapeCount[leaves];
             long totalCodes = hAssignmentCount[leaves]; // 3^leaves

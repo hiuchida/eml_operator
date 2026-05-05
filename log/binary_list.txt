@@ -10,3 +10,5 @@
 111yEE1EE1xE1EE1E
 関数x+y:(K=19 rank=1265 code=2349)
 1111y1EEE1EEx1EE1EE
+関数x^y:(K=23 rank=6298 code=172969 Real)
+xy1xEEy11xyEyyE1EEEEEEE
