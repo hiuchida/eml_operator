@@ -154,7 +154,7 @@ Testing K=19 (Shapes: 4862, Masks: 1024)... break. 0.652s
 [HIT!] Found at K=19, rank=1265, mask=25
 RPN: x 1 1 x x 1 E E E 1 E E 1 1 E E 1 E E
 
-Searching for Unary Function Real target: x/2 at x=0.5772156649015329 (allow_inf=true)
+Searching for Unary Function Real target: x/2 at x=0.5772156649015329 (allow_inf=true) (bitCount is all)
 Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
 Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
 Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
@@ -172,4 +172,26 @@ Testing K=27 (Shapes: 742900, Masks: 16384)... done. 6105.885s
 Testing K=29 (Shapes: 2674440, Masks: 32768)... break. 37183.518s
 [HIT!] Found at K=29, rank=2004798, mask=1028
 RPN: 1 1 x E 1 1 1 1 1 E 1 E E E E 1 x E 1 E 1 E E 1 E E E 1 E
+
+Searching for Unary Function Real target: x/2 at x=0.5772156649015329 (allow_inf=true) (bitCount<=1)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 3)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 4)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 5)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 6)... done. 0.001s
+Testing K=11 (Shapes: 42, Masks: 7)... done. 0.001s
+Testing K=13 (Shapes: 132, Masks: 8)... done. 0.003s
+Testing K=15 (Shapes: 429, Masks: 9)... done. 0.005s
+Testing K=17 (Shapes: 1430, Masks: 10)... done. 0.016s
+Testing K=19 (Shapes: 4862, Masks: 11)... done. 0.038s
+Testing K=21 (Shapes: 16796, Masks: 12)... done. 0.107s
+Testing K=23 (Shapes: 58786, Masks: 13)... done. 0.37s
+Testing K=25 (Shapes: 208012, Masks: 14)... done. 1.437s
+Testing K=27 (Shapes: 742900, Masks: 15)... done. 5.779s
+Testing K=29 (Shapes: 2674440, Masks: 16)... done. 23.472s
+Testing K=31 (Shapes: 9694845, Masks: 17)... done. 96.079s
+Testing K=33 (Shapes: 35357670, Masks: 18)... done. 394.039s
+Testing K=35 (Shapes: 129644790, Masks: 19)... break. 1482.606s
+[HIT!] Found at K=35, rank=116090688, mask=32768
+RPN: 1 1 1 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E E E 1 E E 1 x E 1 E E 1 E
 

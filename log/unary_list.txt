@@ -38,5 +38,15 @@ x11xx1EEE1EE11EE1EE
 1111x1EEE1EEx1EE1EE
 関数2x:(K=19 rank=1265 mask=153 Real)
 x11xx1EEE1EEx1EE1EE
-関数x/2:(K=29 rank=2004798 mask=1028 Real allow_inf=true)
+関数x/2:(K=21 rank=12464 mask=63 x=πi Complex allow_inf=true bitCount is all)
+xxxExxxE11EE1EE1EEE1E
+関数x/2:(K=27 rank=189150 mask=529 x=πi Complex allow_inf=true bitCount<=5)
+x111x11EEEE1EE1xE1EE11EE1EE
+関数x/2:(K=29 rank=2004798 mask=1028 Real allow_inf=true bitCount is all)
 11xE11111E1EEEE1xE1E1EE1EEE1E
+関数x/2:(K=29 rank=2298175 mask=2064 x=πi Complex allow_inf=true bitCount<=2)
+1111xE1EEE1EE111E1EEx1E1EEE1E
+関数x/2:(K=35 rank=110852964 mask=16 x=πi Complex allow_inf=true bitCount<=1)
+1111xE1EEE1EE111111EEE1EE11EE1EEE1E
+関数x/2:(K=35 rank=116090688 mask=32768 Real allow_inf=true bitCount<=1)
+111111111EEE1EE11EE1EEEE1EE1xE1EE1E

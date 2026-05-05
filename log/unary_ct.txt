@@ -154,3 +154,115 @@ Testing K=19 (Shapes: 4862, Masks: 1024)... break. 2.077s
 [HIT!] Found at K=19, rank=1265, mask=16
 RPN: 1 1 1 1 x 1 E E E 1 E E 1 1 E E 1 E E
 
+Searching for Unary Function Complex target: x/2 at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true) (bitCount is all)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.002s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.004s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.009s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.029s
+Testing K=15 (Shapes: 429, Masks: 256)... done. 0.138s
+Testing K=17 (Shapes: 1430, Masks: 512)... done. 0.815s
+Testing K=19 (Shapes: 4862, Masks: 1024)... done. 5.499s
+Testing K=21 (Shapes: 16796, Masks: 2048)... done. 41.221s
+Testing K=23 (Shapes: 58786, Masks: 4096)... done. 315.073s
+Testing K=25 (Shapes: 208012, Masks: 8192)... done. 2406.699s
+Testing K=27 (Shapes: 742900, Masks: 16384)... done. 18444.259s
+Searching for Unary Function Complex target: x/2 at x=0.5772156649015329 + 0.915965594177219i (allow_inf=true) (bitCount<=2)
+Testing K=29 (Shapes: 2674440, Masks: 121)... done. 433.557s
+NOT FOUND
+
+Searching for Unary Function Complex target: x/2 at x=0.5772156649015329 + 0.0i (allow_inf=true) (bitCount<=2)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 7)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 11)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 16)... done. 0.002s
+Testing K=11 (Shapes: 42, Masks: 22)... done. 0.005s
+Testing K=13 (Shapes: 132, Masks: 29)... done. 0.009s
+Testing K=15 (Shapes: 429, Masks: 37)... done. 0.026s
+Testing K=17 (Shapes: 1430, Masks: 46)... done. 0.075s
+Testing K=19 (Shapes: 4862, Masks: 56)... done. 0.253s
+Testing K=21 (Shapes: 16796, Masks: 67)... done. 0.976s
+Testing K=23 (Shapes: 58786, Masks: 79)... done. 3.876s
+Testing K=25 (Shapes: 208012, Masks: 92)... done. 16.815s
+Testing K=27 (Shapes: 742900, Masks: 106)... done. 74.14s
+Testing K=29 (Shapes: 2674440, Masks: 121)... break. 263.029s
+[HIT!] Found at K=29, rank=2004798, mask=1028
+RPN: 1 1 x E 1 1 1 1 1 E 1 E E E E 1 x E 1 E 1 E E 1 E E E 1 E
+
+Searching for Unary Function Complex target: x/2 at x=0.0 + 3.141592653589793i (allow_inf=true) (bitCount is all)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 64)... done. 0.008s
+Testing K=13 (Shapes: 132, Masks: 128)... done. 0.028s
+Testing K=15 (Shapes: 429, Masks: 256)... done. 0.124s
+Testing K=17 (Shapes: 1430, Masks: 512)... done. 0.696s
+Testing K=19 (Shapes: 4862, Masks: 1024)... done. 4.68s
+Testing K=21 (Shapes: 16796, Masks: 2048)... break. 27.2s
+[HIT!] Found at K=21, rank=12464, mask=63
+RPN: x x x E x x x E 1 1 E E 1 E E 1 E E E 1 E
+
+Searching for Unary Function Complex target: x/2 at x=0.0 + 3.141592653589793i (allow_inf=true) (bitCount<=5)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.001s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.001s
+Testing K=5 (Shapes: 2, Masks: 8)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 16)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 32)... done. 0.003s
+Testing K=11 (Shapes: 42, Masks: 63)... done. 0.006s
+Testing K=13 (Shapes: 132, Masks: 120)... done. 0.024s
+Testing K=15 (Shapes: 429, Masks: 219)... done. 0.117s
+Testing K=17 (Shapes: 1430, Masks: 382)... done. 0.537s
+Testing K=19 (Shapes: 4862, Masks: 638)... done. 2.955s
+Testing K=21 (Shapes: 16796, Masks: 1024)... done. 17.42s
+Testing K=23 (Shapes: 58786, Masks: 1586)... done. 103.35s
+Testing K=25 (Shapes: 208012, Masks: 2380)... done. 594.011s
+Testing K=27 (Shapes: 742900, Masks: 3473)... break. 1299.425s
+[HIT!] Found at K=27, rank=189150, mask=529
+RPN: x 1 1 1 x 1 1 E E E E 1 E E 1 x E 1 E E 1 1 E E 1 E E
+
+Searching for Unary Function Complex target: x/2 at x=0.0 + 3.141592653589793i (allow_inf=true) (bitCount<=2)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 4)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 7)... done. 0.001s
+Testing K=7 (Shapes: 5, Masks: 11)... done. 0.001s
+Testing K=9 (Shapes: 14, Masks: 16)... done. 0.002s
+Testing K=11 (Shapes: 42, Masks: 22)... done. 0.004s
+Testing K=13 (Shapes: 132, Masks: 29)... done. 0.009s
+Testing K=15 (Shapes: 429, Masks: 37)... done. 0.029s
+Testing K=17 (Shapes: 1430, Masks: 46)... done. 0.086s
+Testing K=19 (Shapes: 4862, Masks: 56)... done. 0.293s
+Testing K=21 (Shapes: 16796, Masks: 67)... done. 1.188s
+Testing K=23 (Shapes: 58786, Masks: 79)... done. 4.909s
+Testing K=25 (Shapes: 208012, Masks: 92)... done. 21.43s
+Testing K=27 (Shapes: 742900, Masks: 106)... done. 94.0s
+Testing K=29 (Shapes: 2674440, Masks: 121)... break. 365.789s
+[HIT!] Found at K=29, rank=2298175, mask=2064
+RPN: 1 1 1 1 x E 1 E E E 1 E E 1 1 1 E 1 E E x 1 E 1 E E E 1 E
+
+Searching for Unary Function Complex target: x/2 at x=0.0 + 3.141592653589793i (allow_inf=true) (bitCount<=1)
+Testing K=1 (Shapes: 1, Masks: 2)... done. 0.0s
+Testing K=3 (Shapes: 1, Masks: 3)... done. 0.0s
+Testing K=5 (Shapes: 2, Masks: 4)... done. 0.0s
+Testing K=7 (Shapes: 5, Masks: 5)... done. 0.0s
+Testing K=9 (Shapes: 14, Masks: 6)... done. 0.002s
+Testing K=11 (Shapes: 42, Masks: 7)... done. 0.003s
+Testing K=13 (Shapes: 132, Masks: 8)... done. 0.005s
+Testing K=15 (Shapes: 429, Masks: 9)... done. 0.011s
+Testing K=17 (Shapes: 1430, Masks: 10)... done. 0.028s
+Testing K=19 (Shapes: 4862, Masks: 11)... done. 0.081s
+Testing K=21 (Shapes: 16796, Masks: 12)... done. 0.234s
+Testing K=23 (Shapes: 58786, Masks: 13)... done. 0.858s
+Testing K=25 (Shapes: 208012, Masks: 14)... done. 3.222s
+Testing K=27 (Shapes: 742900, Masks: 15)... done. 12.691s
+Testing K=29 (Shapes: 2674440, Masks: 16)... done. 51.407s
+Testing K=31 (Shapes: 9694845, Masks: 17)... done. 209.182s
+Testing K=33 (Shapes: 35357670, Masks: 18)... done. 853.169s
+Testing K=35 (Shapes: 129644790, Masks: 19)... break. 3097.574s
+[HIT!] Found at K=35, rank=110852964, mask=16
+RPN: 1 1 1 1 x E 1 E E E 1 E E 1 1 1 1 1 1 E E E 1 E E 1 1 E E 1 E E E 1 E
+

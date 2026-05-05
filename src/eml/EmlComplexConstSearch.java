@@ -51,6 +51,9 @@ public class EmlComplexConstSearch extends CommonComplexSearch {
     //private static String FUNC = "-3";
     //private static String FUNC = "4";
     //private static String FUNC = "πi";
+    //private static String FUNC = "(π/2)i";
+    //
+    //private static String FUNC = "i";
     private static Complex func() {
         Complex target = Complex.ONE;
         //Complex target = Complex.E;
@@ -74,6 +77,9 @@ public class EmlComplexConstSearch extends CommonComplexSearch {
         //Complex target = Complex.ZERO.sub(Const.THREE);
         //Complex target = Complex.FOUR;
         //Complex target = new Complex(Const.ZERO, Const.PI);
+        //Complex target = new Complex(Const.ZERO, Const.PI/2.0);
+        //
+        //Complex target = new Complex(Const.ZERO, 1.0);
         return target;
     }
 
