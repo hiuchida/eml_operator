@@ -1,0 +1,12 @@
+関数x-y:(K=11 rank=24 code=171)
+11xE1EEy1EE
+関数ln(x)+ln(y):(K=15 rank=121 code=891)
+1111yEE1EExE1EE
+関数ln(x)-ln(y):(K=15 rank=234 code=783)
+111yEE1EE1xE1EE
+関数xy:(K=17 rank=1122 code=891)
+1111yEE1EExE1EE1E
+関数x/y:(K=17 rank=1235 code=783)
+111yEE1EE1xE1EE1E
+関数x+y:(K=19 rank=1265 code=2349)
+1111y1EEE1EEx1EE1EE

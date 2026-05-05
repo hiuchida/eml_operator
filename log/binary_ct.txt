@@ -1,0 +1,74 @@
+Searching for Binary Function Complex target: x-y at x=0.5772156649015329 + 0.0i, y=0.915965594177219 + 0.0i (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.001s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.001s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.001s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.003s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.006s
+Testing K=11 (Shapes: 42, Assignments: 729)... break. 0.021s
+[HIT!] Found at K=11, rank=24, code=171
+RPN: 1 1 x E 1 E E y 1 E E
+
+Searching for Binary Function Complex target: ln(x)+ln(y) at x=0.5772156649015329 + 0.0i, y=0.915965594177219 + 0.0i (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.0s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.0s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.001s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.002s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.006s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.03s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.185s
+Testing K=15 (Shapes: 429, Assignments: 6561)... break. 0.568s
+[HIT!] Found at K=15, rank=121, code=891
+RPN: 1 1 1 1 y E E 1 E E x E 1 E E
+
+Searching for Binary Function Complex target: ln(x)-ln(y) at x=0.5772156649015329 + 0.0i, y=0.915965594177219 + 0.0i (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.0s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.0s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.0s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.001s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.006s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.031s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.187s
+Testing K=15 (Shapes: 429, Assignments: 6561)... break. 0.933s
+[HIT!] Found at K=15, rank=234, code=783
+RPN: 1 1 1 y E E 1 E E 1 x E 1 E E
+
+Searching for Binary Function Complex target: xy at x=0.5772156649015329 + 0.0i, y=0.915965594177219 + 0.0i (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.001s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.001s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.001s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.003s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.007s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.03s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.186s
+Testing K=15 (Shapes: 429, Assignments: 6561)... done. 1.595s
+Testing K=17 (Shapes: 1430, Assignments: 19683)... break. 13.799s
+[HIT!] Found at K=17, rank=1122, code=891
+RPN: 1 1 1 1 y E E 1 E E x E 1 E E 1 E
+
+Searching for Binary Function Complex target: x/y at x=0.5772156649015329 + 0.0i, y=0.915965594177219 + 0.0i (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.0s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.0s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.0s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.002s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.006s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.032s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.187s
+Testing K=15 (Shapes: 429, Assignments: 6561)... done. 1.531s
+Testing K=17 (Shapes: 1430, Assignments: 19683)... break. 14.723s
+[HIT!] Found at K=17, rank=1235, code=783
+RPN: 1 1 1 y E E 1 E E 1 x E 1 E E 1 E
+
+Searching for Binary Function Complex target: x+y at x=0.5772156649015329 + 0.0i, y=0.915965594177219 + 0.0i (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.001s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.001s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.001s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.002s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.006s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.031s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.195s
+Testing K=15 (Shapes: 429, Assignments: 6561)... done. 1.561s
+Testing K=17 (Shapes: 1430, Assignments: 19683)... done. 17.106s
+Testing K=19 (Shapes: 4862, Assignments: 59049)... break. 63.029s
+[HIT!] Found at K=19, rank=1265, code=2349
+RPN: 1 1 1 1 y 1 E E E 1 E E x 1 E E 1 E E
+
