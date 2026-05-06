@@ -12,3 +12,5 @@
 1111y1EEE1EEx1EE1EE
 関数x^y:(K=23 rank=6298 code=172969 Real)
 xy1xEEy11xyEyyE1EEEEEEE
+関数log_x(y):(K=25 rank=30418 code=337957 Real)
+xyy1yxExEExEEE1yyxEE1EEEE

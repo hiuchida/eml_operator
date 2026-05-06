@@ -88,3 +88,20 @@ Testing K=23 (Shapes: 58786, Assignments: 531441)... break. 2602.362s
 [HIT!] Found at K=23, rank=6298, code=172969
 RPN: x y 1 x E E y 1 1 x y E y y E 1 E E E E E E E
 
+Searching for Binary Function Real target: log_x(y) at x=0.5772156649015329, y=0.915965594177219 (allow_inf=true)
+Testing K=1 (Shapes: 1, Assignments: 3)... done. 0.0s
+Testing K=3 (Shapes: 1, Assignments: 9)... done. 0.0s
+Testing K=5 (Shapes: 2, Assignments: 27)... done. 0.0s
+Testing K=7 (Shapes: 5, Assignments: 81)... done. 0.001s
+Testing K=9 (Shapes: 14, Assignments: 243)... done. 0.002s
+Testing K=11 (Shapes: 42, Assignments: 729)... done. 0.016s
+Testing K=13 (Shapes: 132, Assignments: 2187)... done. 0.096s
+Testing K=15 (Shapes: 429, Assignments: 6561)... done. 0.829s
+Testing K=17 (Shapes: 1430, Assignments: 19683)... done. 9.068s
+Testing K=19 (Shapes: 4862, Assignments: 59049)... done. 103.522s
+Testing K=21 (Shapes: 16796, Assignments: 177147)... done. 1189.34s
+Testing K=23 (Shapes: 58786, Assignments: 531441)... done. 13712.253s
+Testing K=25 (Shapes: 208012, Assignments: 1594323)... break. 33905.708s
+[HIT!] Found at K=25, rank=30418, code=337957
+RPN: x y y 1 y x E x E E x E E E 1 y y x E E 1 E E E E
+
